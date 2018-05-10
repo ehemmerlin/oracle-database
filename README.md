@@ -21,9 +21,12 @@ Using Putty, connect to the virtual machine using this ip. Now you can enjoy cop
 
 ## Share a folder
 In the virtual machine settings add a shared folder then in the command line type :
+
     $ sudo nano /etc/fstab
+
 Insert the following line at the end of this file :
-.host:/ /mnt/hgfs fuse.vmhgfs-fuse allow_other,auto_unmount,defaults 0 0
+
+     .host:/ /mnt/hgfs fuse.vmhgfs-fuse allow_other,auto_unmount,defaults 0 0
 
 Reboot the virtual machine. The shared folder should now be seen here : /mnt/hgfs
 
