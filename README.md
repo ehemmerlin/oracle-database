@@ -88,6 +88,9 @@ Type the following commands in a command line (assuming your are in your home fo
 
 You are now connected to Oracle database.
 
-You can also visit https://192.168.80.128:5500/em/login to access Oracle Entreprise Manager.
+You can also visit https://192.168.80.128:5500/em/login to access Oracle Entreprise Manager using :
+* user : sys
+* password : Passw0rd
+* connect as SYSDBA 
 
 Detailed instructions : https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance
